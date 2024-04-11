@@ -1,0 +1,515 @@
+body {
+    background-image: url("bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    font-size: 18px;
+    font-family: 'Bai Jamjuree';
+}
+
+h1,
+h3 {
+    color: hsl(210, 10%, 33%);
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    margin-bottom: 1rem;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+.logo {
+    display: block;
+
+    margin-top: 5rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro .phrase {
+    margin-top: 2rem;
+
+    text-align: center;
+
+    width: 40%;
+}
+
+.goal {
+    font-size: 2.8rem;
+    font-weight: 600;
+
+    margin-bottom: 0;
+}
+
+.des {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.download-buttons {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+
+    display: flex;
+}
+
+.ios,
+.mac {
+    border: none;
+
+    color: white;
+
+    padding: 1rem 3rem;
+
+    border-radius: 25px;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+
+    border-bottom: 3px solid hsl(171deg 63% 35%);
+
+    box-shadow: 0px 10px 17px -7px hsla(171, 66%, 44%, 0.5);
+
+    margin-right: 1.5rem;
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+
+    border-bottom: 3px solid hsl(233deg 49% 51%);
+
+    box-shadow: 0px 10px 17px -7px hsla(233, 100%, 69%, 0.5%);
+}
+
+.ios:hover {
+    cursor: pointer;
+
+    background-color: hsl(171, 66%, 54%);
+
+    box-shadow: hsla(171, 66%, 54%, 0.5);
+}
+
+.mac:hover {
+    cursor: pointer;
+
+    background-color: hsl(233, 100%, 79%);
+
+    box-shadow: hsla(233, 100%, 79%, 0.5%);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.about-header {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.des-2 {
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+
+    font-weight: 300;
+
+    width: 40%;
+}
+
+.computer-img {
+    margin-right: 8rem;
+}
+
+.features-div {
+    display: flex;
+
+    margin-bottom: 8rem;
+}
+
+.features {
+    text-align: center;
+}
+
+.features .feature-1,
+.features .feature-2,
+.features .feature-3 {
+    width: 55%;
+
+    margin-bottom: 3.5rem;
+
+    line-height: 2rem;
+}
+
+.features .feature-1 .des,
+.features .feature-2 .des,
+.features .feature-3 .des {
+    font-size: 1rem;
+
+    margin-top: 0;
+}
+
+.anywhere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.anywhere .phrase {
+    text-align: center;
+
+    width: 40%;
+
+    margin-bottom: 4rem;
+}
+
+.anywhere-header {
+    font-weight: 600;
+}
+
+.anywhere .des {
+    font-size: 1.1rem;
+}
+
+.image-devices {
+    display: block;
+}
+
+.workflow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 6rem;
+}
+
+.workflow .phrase {
+    text-align: center;
+
+    margin-bottom: 5rem;
+}
+
+.workflow img {
+    display: block;
+}
+
+.workflow-header {
+    font-weight: 600;
+}
+
+.workflow .des {
+    font-size: 1.1rem;
+}
+
+.features-2 {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.features-2 .feature-1,
+.features-2 .feature-2,
+.features-2 .feature-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    width: 22rem;
+
+    margin-right: 1.2rem;
+    margin-bottom: 4rem;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-bottom: 5rem;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.final .phrase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.final h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.final p {
+    width: 65%;
+}
+
+footer {
+    background-color: #f6f6f6;
+
+    display: flex;
+    align-items: center;
+
+    padding: 1.5rem 10rem;
+
+    margin-bottom: 3rem;
+}
+
+footer img {
+    display: block;
+
+    height: 4rem;
+    width: 4rem;
+
+    margin-right: 10rem;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 3.375rem;
+    flex-wrap: wrap;
+
+    list-style-type: none;
+
+    width: 100%;
+}
+
+.links li {
+    width: 10rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    margin-right: 3rem;
+
+    color: hsl(210, 10%, 33%);
+}
+
+
+.links li:hover {
+    cursor: pointer;
+
+    color: hsl(171, 66%, 44%);
+}
+
+.socials {
+    display: flex;
+}
+
+.socials img {
+    display: block;
+
+    width: 1.5rem;
+    height: 1.5rem;
+
+    margin-right: 1.5rem;
+}
+
+.socials img:hover {
+    cursor: pointer;
+
+    filter: hue-rotate(171deg) saturate(66%) brightness(44%);
+}
+
+.socials > img:nth-child(3) {
+    margin-right: 0;
+}
+
+@media only screen and (width <= 1000px) {
+    body {
+        background-image: url("bg-header-mobile.png");
+    }
+
+    .intro .phrase {
+        width: 100%;
+    }
+
+    .intro .goal {
+        font-size: 2rem;
+    }
+
+    .intro .des {
+        font-size: 1.1rem;
+    }
+
+    .download-buttons {
+        flex-direction: column;
+
+        margin-bottom: 5rem;
+    }
+
+    .ios,
+    .mac {
+        padding: 1rem 6.5rem;
+    }
+
+    .ios {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .feature-header {
+        font-size: 1.8rem;
+    }
+
+    .des-2 {
+        margin-top: 0;
+
+        font-size: 1.1rem;
+
+        width: 100%;
+    }
+
+    .computer-img {
+        display: block;
+
+        width: 90%;
+        height: auto;
+
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .features {
+        display: flex;
+
+    }
+
+    .features-div,
+    .features {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features .feature-1,
+    .features .feature-2,
+    .features .feature-3 {
+        width: 100%;
+
+        margin-bottom: 0.5rem;
+    }
+
+    .anywhere-header {
+        font-size: 1.7rem;
+    }
+
+    .anywhere .phrase {
+        width: 88%;
+    }
+
+    .anywhere .des {
+        font-size: 1rem;
+    }
+
+    .image-device {
+        width: 100%;
+        height: auto;
+    }
+
+    .workflow-header {
+        font-size: 1.7rem;
+    }
+
+    .workflow .des {
+        font-size: 1rem;
+    }
+
+    .features-2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features-2 .feature-1,
+    .features-2 .feature-2,
+    .features-2 .feature-3 {
+        margin-right: 0;
+    }
+
+    .companies {
+        flex-direction: column;
+    }
+
+    .companies img {
+        margin-bottom: 3rem;
+    }
+
+    .final h1 {
+        font-size: 1.8rem;
+    }
+
+    .final p {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .final .phrase {
+        width: 90%;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 2rem 0;
+    }
+
+    footer img {
+        width: 3rem;
+        height: 3rem;
+
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .links {
+        text-align: center;
+
+        justify-content: center;
+
+        height: auto;
+        
+        width: 40%;
+
+        padding: 0;
+    }
+
+    .links li {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+}
